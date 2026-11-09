@@ -1,22 +1,22 @@
-\## Assembly
+## Assembly
 
-\*\*cmake -S . -B build\*\*
+**cmake -S . -B build**
 
-\*\*cmake --build build --config Release\*\*
-
-
-
-\## Run after build
-
-\*\*.\\build\\Release\\homework\_orm.exe\*\*
+**cmake --build build --config Release**
 
 
 
-\## PostgreSQL Path
+## Run after build
 
-I specified my DB path in \*\*CMakeLists.txt\*\*: \*\*C:/Program Files/PostgreSQL/18\*\*.
+**.\build\Release\homework_orm.exe**
 
-If your path is different, change this field in \*\*CMakeLists.txt\*\* before building.
 
-#
+
+## PostgreSQL Path
+
+I specified my DB path in **CMakeLists.txt**: **C:/Program Files/PostgreSQL/18**.
+
+If your path is different, change this field in **CMakeLists.txt** before building.
+
+
 
