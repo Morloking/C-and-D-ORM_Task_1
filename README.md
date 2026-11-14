@@ -6,7 +6,9 @@ I used the following path:
 set(PG_DIR "C:/Program Files/PostgreSQL/18")
 ```
 If your path is different, update this variable before building.
-
+```cmake
+set(PG_DIR "your_path")
+```
 ### 2. Check the database configuration in `consts.h`
 I used the following settings:
 * **Host:** `localhost`
